@@ -36,7 +36,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="me" revision="arrow-13.1" />
         <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="me" revision="arrow-13.1" />
-        <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="arrow" revision="arrow-13.1" clone-depth="1" />
+        <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="me" revision="arrow-13.1" clone-depth="1" />
      
         
 </manifest>
