@@ -5,10 +5,6 @@
         <!-- remote -->
         <remote name="me"
         fetch="https://github.com/mipa-ginkgo" />
-        <remote name="arrow"
-        fetch="https://github.com/ArrowOS-Devices" />
-        <remote name="arrowS"
-        fetch="https://github.com/ArrowOS" />
 
 
         <!-- Replacement -->
