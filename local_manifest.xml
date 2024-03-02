@@ -5,8 +5,9 @@
         <!-- remote -->
         <remote name="me"
         fetch="https://github.com/mipa-ginkgo" />
-
-
+        <remote name="af"
+        fetch="https://github.com/AfterLifePrjkt13" />
+        
         <!-- Replacement -->
         <remove-project name="android_frameworks_base" />
         <remove-project name="android_hardware_qcom_audio" />
@@ -29,7 +30,7 @@
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="me" revision="arrow-13.1" />
         <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me" revision="V4A" />
         <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="me" revision="arrow-13.1" />
-        <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="me" revision="13" />
+        <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="af" revision="13" />
           <!-- build -->
         <project path="build/make" name="android_build" remote="me" revision="arrow-13.1" >
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
