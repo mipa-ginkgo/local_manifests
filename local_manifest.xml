@@ -7,7 +7,7 @@
         fetch="https://github.com/mipa-ginkgo" />
         <remote name="af"
         fetch="https://github.com/crdroidandroid" />
-        <remote name="arrow-gitlab"
+        <remote name="arrow-gl"
         fetch="https://gitlab.com/arrowos-project" />
         
         <!-- Replacement -->
@@ -31,7 +31,7 @@
         <project path="frameworks/base" name="android_frameworks_base" remote="me" revision="arrow-13.1-test" />
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="me" revision="arrow-13.1" />
         <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me" revision="V4A" />
-        <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="arrow-gitlab" revision="arrow-13.1" />
+        <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="arrow-gl" revision="arrow-13.1" />
         <project path="packages/apps/GameSpace" name="packages_apps_GameSpace-2" remote="me" revision="arrow-13.0" />
           
         <!-- build -->
